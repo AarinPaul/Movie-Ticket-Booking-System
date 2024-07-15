@@ -19,7 +19,7 @@ public class MainUI extends JFrame {
           //Database Connection
           try{
                Con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Movies",
-               "root","Aarin123#");
+               "YOUR DB USERNAME","YOUR DB PASSWORD");
           }
           catch (SQLException e) {
                e.printStackTrace();
